@@ -1,0 +1,119 @@
+body {
+    background-image: url('https://slidechef.net/wp-content/uploads/2024/04/Creative-Harry-Potter-Background.jpg');
+    background-repeat: no-repeat;
+    margin: 0px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+h1{
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.card{
+    border: solid red;
+    height: 400px;
+    width: 400px;
+    margin-top: 20px;
+    background: linear-gradient(45deg, #4f2305, #c98554);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+
+}
+
+#dateInput{
+    font-weight: bold;
+    font-style: italic;
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 1.3rem;
+    color: rgba(255, 235, 205, 0.505);
+}
+
+#nameInput{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 0px;
+    margin-top: 40px;
+    color: #1e0f05f1;
+
+}
+
+#ancestryInput{
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 1.7rem;
+    color: #1e0f05f1;
+}
+
+#patronusInput{
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 1.7rem;
+    color: #1e0f05f1;
+}
+
+#houseInput{
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 1.7rem;
+    color: #1e0f05f1;
+}
+
+#wandInput{
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 1.7rem;
+    color: #1e0f05f1;
+}
+
+#btn{
+    font-size: large;
+    background-color: #764522;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    color: rgba(255, 235, 205, 0.758);
+    border: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.74);
+}
+
+#characterInput{
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.55);
+}
+
+#nameC{
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.medium{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
