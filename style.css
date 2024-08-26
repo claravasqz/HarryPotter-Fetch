@@ -8,22 +8,28 @@ body {
     align-items: center; */
 }
 
-h1{
+.hpLogo{
     margin: 0px;
     margin-top: 10px;
+    height: 100px;
+    background-color: #76452273;
+    border-radius: 20px;
 }
 
-.card{
-    border: solid red;
-    height: 400px;
-    width: 400px;
+#cards{
+    /* border: solid red; */
+    /* height: 400px; */
+    /* width: 400px; */
     margin-top: 20px;
-    background: linear-gradient(45deg, #4f2305, #c98554);
     border-radius: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0px;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    box-shadow: 5px 5px 3px #0000009a;
 
 }
 
@@ -31,16 +37,16 @@ h1{
     font-weight: bold;
     font-style: italic;
     margin: 0px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     font-size: 1.3rem;
-    color: rgba(255, 235, 205, 0.505);
+    color: rgba(128, 102, 63, 0.927);
 }
 
 #nameInput{
     font-size: 2rem;
     font-weight: bolder;
     margin: 0px;
-    margin-top: 40px;
+    margin-top: 10px;
     color: #1e0f05f1;
 
 }
@@ -81,14 +87,20 @@ h1{
 
 #btn{
     font-size: large;
-    background-color: #764522;
+    background-color: #764522af;
     border-radius: 5px;
     width: 100px;
     height: 30px;
     margin: 10px;
     color: rgba(255, 235, 205, 0.758);
     border: none;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.74);
+    box-shadow: 3px 3px 5px #000000bd;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: #764522;
+
 }
 
 #characterInput{
@@ -103,6 +115,7 @@ h1{
 #nameC{
     font-size: 2rem;
     font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
 
@@ -126,4 +139,42 @@ h1{
     margin-top: 10px;
     font-size: 1rem;
     color: #1e0f05f1;
+}
+
+#houseImage{
+    height: 200px;
+
+}
+
+#insideCards{
+    border-radius: 20px;
+    margin: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+
+#houseCard{
+    /* background: radial-gradient(circle at bottom left, #740001, #ae0001, #eeba30, #d3a625); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#characterCard{
+    /* background-color: #740001; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#characterImage{
+    height: 250px;
+    margin: 20px;
 }
