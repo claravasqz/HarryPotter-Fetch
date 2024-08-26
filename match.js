@@ -37,6 +37,8 @@ export function checkMatch() {
             document.getElementById("insideCards").style.opacity = "10";
             document.getElementById("characterCard").style.background = "#740001";
             document.getElementById("cards").style.boxShadow = "10px 10px 5px #0000009a";
+            document.getElementById("characterCard").style.boxShadow = "10px 10px 5px #0000009a";
+            document.getElementById("houseCard").style.boxShadow = "10px 10px 5px #0000009a";
 
             found = true;
             break; 
@@ -61,8 +63,9 @@ export function checkMatch() {
             document.getElementById("houseCard").style.height = "370px";
             document.getElementById("cards").style.opacity = "10";
             document.getElementById("insideCards").style.opacity = "10";
-            document.getElementById("cards").style.boxShadow = "10px 10px 5px #000000bd";
-
+            document.getElementById("cards").style.boxShadow = "10px 10px 5px #0000009a";
+            document.getElementById("characterCard").style.boxShadow = "10px 10px 5px #0000009a";
+            document.getElementById("houseCard").style.boxShadow = "10px 10px 5px #0000009a";
             found = true;
             break; 
         }
@@ -87,6 +90,8 @@ export function checkMatch() {
             document.getElementById("cards").style.opacity = "10";
             document.getElementById("insideCards").style.opacity = "10";
             document.getElementById("cards").style.boxShadow = "10px 10px 5px #0000009a";
+            document.getElementById("characterCard").style.boxShadow = "10px 10px 5px #0000009a";
+            document.getElementById("houseCard").style.boxShadow = "10px 10px 5px #0000009a";
 
             found = true;
             break; 
@@ -106,12 +111,14 @@ export function checkMatch() {
             document.getElementById("houseImage").src = "https://1000logos.net/wp-content/uploads/2023/08/Hufflepuff-Logo.png";
             document.getElementById("houseCard").style.background = "radial-gradient(circle at bottom left, #ecb939, #f0c75e, #726255, 	#372e29)";
             document.getElementById("characterCard").style.background = "#ecb939";
-            document.getElementById("cards").style.boxShadow = "10px 10px 5px black";
             document.getElementById("insideCards").style.background = "#deb887e7";
             document.getElementById("cards").style.backgroundImage = "url('https://i.pinimg.com/736x/1e/77/9e/1e779e50696c46e5f69e3ccf03accc8d.jpg')";
             document.getElementById("houseCard").style.height = "370px";
             document.getElementById("cards").style.opacity = "10";
             document.getElementById("insideCards").style.opacity = "10";
+            document.getElementById("cards").style.boxShadow = "10px 10px 5px #0000009a";
+            document.getElementById("characterCard").style.boxShadow = "10px 10px 5px #0000009a";
+            document.getElementById("houseCard").style.boxShadow = "10px 10px 5px #0000009a";
 
             found = true;
             break; 

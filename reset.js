@@ -17,4 +17,6 @@ export function resetDisplay() {
     document.getElementById("insideCards").style.background = '';
     document.getElementById("nameInput").style.background = '';
     document.getElementById("cards").style.boxShadow = '';
+    document.getElementById("characterCard").style.boxShadow = '';
+    document.getElementById("houseCard").style.boxShadow = '';
 }
